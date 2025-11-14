@@ -1,73 +1,70 @@
 # TautologyAI - Legal Document Analysis Platform
 
-![TautologyAI](https://img.shields.io/badge/TautologyAI-Legal%20AI-blue?style=for-the-badge)
-![Next.js](https://img.shields.io/badge/Next.js-15.5.2-black?style=for-the-badge&logo=next.js)
-![Python](https://img.shields.io/badge/Python-FastAPI-green?style=for-the-badge&logo=python)
-![Firebase](https://img.shields.io/badge/Firebase-Hosting-orange?style=for-the-badge&logo=firebase)
+**Tech Stack:** Next.js 15.5.2 | FastAPI | Firebase Hosting | Google Cloud AI | Supabase
 
-> **Gen AI Exchange Hackathon Project** - Democratizing legal document analysis with AI
+> AI-powered platform that analyzes legal documents to deliver instant summaries, risk detection, and plain-language explanations without requiring legal expertise.
 
-## 🏆 Project Overview
+## Project Overview
 
-TautologyAI is an innovative AI-powered platform designed to demystify legal documents for everyone. Built for the **Gen AI Exchange Hackathon**, our solution makes advanced legal document analysis accessible to legal professionals, businesses, and individuals without requiring extensive legal training or expensive consultation fees.
+TautologyAI is an AI-powered platform designed to demystify legal documents for everyone. Built for the Gen AI Exchange Hackathon, our solution makes advanced legal document analysis accessible to legal professionals, businesses, and individuals without requiring extensive legal training or expensive consultation fees.
 
-### 🎯 Problem Statement
-**[Student] Generative AI for Demystifying Legal Documents**
+### Problem Statement
+Student Track: Generative AI for Demystifying Legal Documents
 
-### 👥 Team TurboC++
-- **Jaiveek Chauhan** - jaivikchauhan2007@gmail.com
-- **Tanmay Mevada** - tanmaymevada24@gmail.com  
-- **Manash Gusani** - manashgusani427@gmail.com
-- **Rajveer Jadeja** - rajveersinhjadeja@gmail.com
-- **Nishith Bodar** - bodarnishith32@gmail.com
+### Team TurboC++
+- Tanmay Mevada - tanmaymevada24@gmail.com  
+- Jaiveek Chauhan - jaivikchauhan2007@gmail.com
+- Manash Gusani - manashgusani427@gmail.com
+- Rajveer Jadeja - rajveersinhjadeja@gmail.com
+- Nishith Bodar - bodarnishith32@gmail.com
 
-## 🚀 Key Features
+## Key Features
 
-### 📄 Smart Document Processing
+### Smart Document Processing
 - Advanced OCR and AI analysis for PDFs, contracts, and legal documents
 - High accuracy text extraction and content understanding
 - Multi-format document support
 
-### ⚡ Instant Analysis
+### Instant Analysis
 - Comprehensive summaries in seconds
 - Risk assessments and red flag identification
 - Key party identification and clause extraction
 
-### 🔒 Risk Detection
+### Risk Detection
 - Automatic identification of potential risks
 - Important clause highlighting
 - Negotiation point suggestions
 
-### 💬 Interactive Q&A
+### Interactive Q&A
 - Ask questions about your documents
 - Get clear, contextual answers
 - AI-backed analysis and explanations
 
-### 🌐 Modern Web Interface
+### Modern Web Interface
 - Responsive design for all devices
 - Dark/light mode support
 - Intuitive user experience
 - Real-time processing updates
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 TautologyAI/
-├── 🎨 Frontend (Next.js 15.5.2)
+├── Frontend (Next.js 15.5.2)
 │   ├── Static site generation
 │   ├── Firebase Hosting
 │   ├── Tailwind CSS styling
 │   └── React components
-└── ⚙️ Backend (FastAPI + Python)
+└── Backend (FastAPI + Python)
     ├── Google Cloud Document AI
     ├── Vertex AI & Gemini
     ├── Firebase Admin SDK
     └── Supabase Database
 ```
 
-### 🔧 Tech Stack
+## Tech Stack
 
-#### Frontend
+### Frontend
 - **Framework:** Next.js 15.5.2 with React 19
 - **Styling:** Tailwind CSS + Shadcn/UI components
 - **Authentication:** Firebase Auth (Google OAuth)
@@ -75,7 +72,7 @@ TautologyAI/
 - **Icons:** Lucide React
 - **Email:** Nodemailer for contact forms
 
-#### Backend
+### Backend
 - **API:** FastAPI with Python 3.11+
 - **AI Processing:** Google Cloud Document AI + Vertex AI
 - **Database:** Supabase (PostgreSQL)
@@ -83,7 +80,7 @@ TautologyAI/
 - **Deployment:** Google Cloud Run
 - **Authentication:** Firebase Admin SDK
 
-#### AI & Cloud Services
+### AI & Cloud Services
 - **OCR:** Google Cloud Document AI
 - **LLM:** Gemini 2.5 Flash Lite
 - **Cloud Platform:** Google Cloud Platform
@@ -91,7 +88,7 @@ TautologyAI/
 - **Database:** Supabase
 - **Storage:** Firebase Storage
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -100,7 +97,7 @@ TautologyAI/
 - Google Cloud account
 - Supabase account
 
-### 🎨 Frontend Setup
+### Frontend Setup
 
 ```bash
 cd frontend
@@ -122,7 +119,7 @@ EMAIL_USER=your-email@gmail.com
 EMAIL_PASS=your-app-specific-password
 ```
 
-### ⚙️ Backend Setup
+### Backend Setup
 
 ```bash
 cd backend
@@ -141,59 +138,59 @@ FIREBASE_PROJECT_ID=your_firebase_project
 ADMIN_EMAILS=admin1@email.com,admin2@email.com
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 legal-ai/
-├── 📄 README.md                    # This file
-├── 📄 LICENSE                      # MIT License
-├── 📄 database_setup.sql          # Database schema
+├── README.md                    # Documentation
+├── LICENSE                      # MIT License
+├── database_setup.sql          # Database schema
 ├── 
-├── 🎨 frontend/                    # Next.js Frontend
-│   ├── 📦 src/
-│   │   ├── 🏠 app/                 # App Router pages
+├── frontend/                    # Next.js Frontend
+│   ├── src/
+│   │   ├── app/                 # App Router pages
 │   │   │   ├── page.tsx           # Main dashboard
 │   │   │   ├── about/             # About & contact page
 │   │   │   ├── upcoming-features/ # Roadmap page
 │   │   │   └── api/contact/       # Contact API route
-│   │   ├── 🧩 components/ui/      # Reusable UI components
-│   │   └── 📚 lib/                # Utilities & config
-│   ├── 🖼️ public/                 # Static assets
-│   ├── ⚙️ firebase.json          # Firebase hosting config
-│   ├── ⚙️ next.config.ts         # Next.js config
-│   └── 📦 package.json           # Dependencies
+│   │   ├── components/ui/      # Reusable UI components
+│   │   └── lib/                # Utilities & config
+│   ├── public/                 # Static assets
+│   ├── firebase.json          # Firebase hosting config
+│   ├── next.config.ts         # Next.js config
+│   └── package.json           # Dependencies
 │   
-└── ⚙️ backend/                     # FastAPI Backend
-    ├── 🏗️ app/
+└── backend/                     # FastAPI Backend
+    ├── app/
     │   ├── api/                   # API routes
     │   └── core/                  # Core utilities
-    ├── 🐳 Dockerfile             # Container config
-    ├── ⚙️ requirements.txt       # Python dependencies
-    └── 🚀 main.py                # FastAPI app entry
+    ├── Dockerfile             # Container config
+    ├── requirements.txt       # Python dependencies
+    └── main.py                # FastAPI app entry
 ```
 
-## 🌟 Key Pages & Features
+## Key Pages & Features
 
-### 🏠 Main Dashboard (`/`)
+### Main Dashboard
 - Google OAuth authentication
 - File upload interface
 - Document processing status
 - Results display and interaction
 
-### ℹ️ About & Contact (`/about`)
+### About & Contact
 - Hackathon project information
 - Team member details
 - Project resources and links
 - Contact form with email integration
 - Social media links
 
-### 🔮 Upcoming Features (`/upcoming-features`)
+### Upcoming Features
 - Development roadmap
 - Feature timeline and priorities
 - User feedback collection
 - GitHub integration links
 
-## 🚀 Deployment
+## Deployment
 
 ### Frontend (Firebase Hosting)
 ```bash
@@ -206,7 +203,7 @@ npm run deploy
 ./deploy.sh  # Automated deployment script
 ```
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `GET /` - Health check
@@ -220,51 +217,50 @@ npm run deploy
 ### Contact
 - `POST /api/contact` - Send contact form emails
 
-## 🎨 UI Components
+## UI Components
 
-Built with **Shadcn/UI** and **Tailwind CSS**:
-- `Button` - Interactive buttons with variants
-- `Card` - Content containers
-- `Input` & `Textarea` - Form inputs
-- `Badge` - Status indicators
-- `ScrollArea` - Scrollable content areas
+Built with Shadcn/UI and Tailwind CSS:
+- Button - Interactive buttons with variants
+- Card - Content containers
+- Input & Textarea - Form inputs
+- Badge - Status indicators
+- ScrollArea - Scrollable content areas
 
-## 📈 Performance & SEO
+## Performance & SEO
 
-- **Static Site Generation** for optimal performance
-- **Responsive design** for all devices
-- **SEO optimized** with proper meta tags
-- **Firebase CDN** for global content delivery
+- Static Site Generation for optimal performance
+- Responsive design for all devices
+- SEO optimized with proper meta tags
+- Firebase CDN for global content delivery
 
-## 🔐 Security Features
+## Security Features
 
-- **Firebase Authentication** with Google OAuth
-- **JWT token validation** on all protected routes
-- **Admin role management** via environment variables
-- **Secure file uploads** to Firebase Storage
-- **Environment variable protection** for sensitive data
+- Firebase Authentication with Google OAuth
+- JWT token validation on all protected routes
+- Admin role management via environment variables
+- Secure file uploads to Firebase Storage
+- Environment variable protection for sensitive data
 
-## 📞 Contact & Support
+## Contact & Support
 
 - **Email:** turbo.cpp.nu@gmail.com
 - **GitHub:** [tanmay-mevada/legal-ai](https://github.com/tanmay-mevada/legal-ai)
 - **Instagram:** [@turbo.cpp.nu](https://www.instagram.com/turbo.cpp.nu)
 
-## 📚 Resources
+## Resources
 
-- **📊 Presentation:** [View Slides](https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00972666/1758477302364-GenAIExchangeHackathonPrototypeSubmissionByTautologyAITurboC.pdf)
-- **🎥 Demo Video:** [Watch Demo](https://youtu.be/8r8_jnx0UBs?si=1yOqEsTlGbypWcb_)
-- **💻 Source Code:** [GitHub Repository](https://github.com/tanmay-mevada/Legal-AI)
+- **Presentation:** [View Slides](https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00972666/1758477302364-GenAIExchangeHackathonPrototypeSubmissionByTautologyAITurboC.pdf)
+- **Demo Video:** [Watch Demo](https://youtu.be/8r8_jnx0UBs?si=1yOqEsTlGbypWcb_)
+- **Source Code:** [GitHub Repository](https://github.com/tanmay-mevada/Legal-AI)
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🏆 Hackathon Context
+## Hackathon Context
 
-This is a **prototype application** developed for the **Gen AI Exchange Hackathon**. The project demonstrates the potential of AI in democratizing legal document analysis and making legal technology more accessible to everyone.
+This is a prototype application developed for the Gen AI Exchange Hackathon. The project demonstrates the potential of AI in democratizing legal document analysis and making legal technology more accessible to everyone.
 
 ---
 
-**© 2025 TautologyAI - Team TurboC++**  
-*Empowering legal professionals with AI-driven document analysis*
+© 2025 TautologyAI - Team TurboC++
