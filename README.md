@@ -263,4 +263,4 @@ This is a prototype application developed for the Gen AI Exchange Hackathon. The
 
 ---
 
-© 2025 TautologyAI - Team TurboC++
+2025 TautologyAI -Team TurboC++
